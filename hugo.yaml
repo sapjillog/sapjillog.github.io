@@ -1,6 +1,6 @@
-baseURL: "https://kernelmind.github.io/"
+baseURL: "https://sapjillog.github.io/"
 locale: "ko-kr"
-title: "kernelmind"
+title: "삽질로그"
 theme: "PaperMod"
 enableRobotsTXT: true
 buildDrafts: false
@@ -18,8 +18,8 @@ params:
   ShowCodeCopyButtons: true
   ShowToc: true
   homeInfoParams:
-    Title: "kernelmind"
-    Content: "AI로 일하는 서버 엔지니어. 서버·인프라 실무, AI 자동화, 지식관리를 기록합니다."
+    Title: "삽질로그"
+    Content: "AI로 일하는 서버 엔지니어. 서버·인프라 현장의 삽질과 해결, AI 자동화, 지식관리를 기록합니다."
 
 taxonomies:
   category: categories
