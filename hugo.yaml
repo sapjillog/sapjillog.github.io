@@ -1,0 +1,40 @@
+baseURL: "https://kernelmind.github.io/"
+locale: "ko-kr"
+title: "kernelmind"
+theme: "PaperMod"
+enableRobotsTXT: true
+buildDrafts: false
+pagination:
+  pagerSize: 10
+minify:
+  disableXML: true
+
+params:
+  description: "AI로 일하는 서버 엔지니어 — 서버·인프라, AI 자동화, 지식관리 기록"
+  defaultTheme: auto
+  ShowReadingTime: true
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+  ShowToc: true
+  homeInfoParams:
+    Title: "kernelmind"
+    Content: "AI로 일하는 서버 엔지니어. 서버·인프라 실무, AI 자동화, 지식관리를 기록합니다."
+
+taxonomies:
+  category: categories
+  tag: tags
+
+menu:
+  main:
+    - name: 서버·인프라
+      url: /categories/서버인프라/
+      weight: 10
+    # AI·자동화, 지식관리·생산성 카테고리는 첫 글 발행 시 메뉴에 추가
+    # (글이 없으면 카테고리 페이지가 생성되지 않아 404가 됨)
+    - name: 전체글
+      url: /archives/
+      weight: 40
+    - name: About
+      url: /about/
+      weight: 50
